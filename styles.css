@@ -1,0 +1,77 @@
+body {
+    background-color: #F4F1BB;
+    color: black;
+    margin: 0;
+}
+
+.top {
+    background-color: #5FAD41;
+    color: #F4F1BB;
+    text-align: left;
+    padding: 3px;
+    padding-left: 30px;
+    font-weight: bold;
+    size: 75%;
+}
+
+.buttons {
+    background-color: #5FAD41;
+    color: #F4F1BB;
+    position: sticky;
+    top: 0;
+    padding: 1.25%;
+    margin-top: -1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages {
+    background-color: black;
+    box-shadow: 4px;
+    border-radius: 16px;
+    height: 75%;
+    color: #F4F1BB;
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    /*nav button*/
+}
+
+h1 {
+    line-height: 2px;
+    padding-top: 12px;
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grouparound {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rust {
+    display: flex;
+    background-color: #af4319;
+    color: #F4F1BB;
+    padding: 7px;
+    justify-content: center;
+}
+
+.quote {
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.darkgreen {
+    background-color: #1e3f20;
+    color: #F4F1BB;
+    border-radius: 12.5%;
+    padding: 30px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
